@@ -25,6 +25,8 @@ public class Item {
         return price*amount;
     }
 
-
+    public String toString(){
+        return (name)+"\t\t"+(price)+" \t"+(amount)+"\t\t"+(price*amount)+"\t";
+    }
     
 }
